@@ -1,0 +1,28 @@
+{
+  "name": "todoserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkashLM/ToDoServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkashLM/ToDoServer/issues"
+  },
+  "homepage": "https://github.com/AkashLM/ToDoServer#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chalk": "4",
+    "chalk-animation": "^2.0.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16"
+  }
+}
